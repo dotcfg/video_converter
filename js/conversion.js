@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var actionsExtract = {
         init: function () {
-            OCA.Files.fileActions.registerAction({
+            registerFileAction({
                 name: 'convert',
                 displayName: 'Convert into',
                 mime: 'video',
